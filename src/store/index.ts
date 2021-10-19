@@ -23,7 +23,7 @@ const store = createStore<IStore>({
 })
 
 export function setupStore(app: App) {
-  app.use(store, key)
+  app.use(store)
   console.log(store, 'vuex')
 }
 

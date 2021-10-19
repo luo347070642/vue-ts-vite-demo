@@ -24,7 +24,7 @@
       <a-button type="primary"
                 html-type="submit"
                 @click="login"
-                :disabled="formState.user === '' || formState.password === ''">
+                :disabled="formState.username === '' || formState.password === ''">
         登录
       </a-button>
     </a-form-item>
